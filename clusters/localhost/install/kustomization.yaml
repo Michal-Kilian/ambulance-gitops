@@ -9,3 +9,6 @@ labels:
 
 resources:
   - ../../../apps/cv2-xkilian-ambulance-ufe
+
+components:
+  - ../../../components/version-developers

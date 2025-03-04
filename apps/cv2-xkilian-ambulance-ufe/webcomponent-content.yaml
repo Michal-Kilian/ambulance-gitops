@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: cv2-xkilian-ambulance-ufe-content
+spec:
+  microFrontend: cv2-xkilian-ambulance-ufe
+  element: cv2-xkilian-wl-list
+  displayRules:
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?cv2-xkilian-wl(/.*)?$"

@@ -9,8 +9,6 @@ spec:
     branch: main
   timeout: 1m0s
   url: https://github.com/Michal-Kilian/wac
-  secretRef:
-     name: cv2-xkilian-repository-pat
 
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
 # secretRef:

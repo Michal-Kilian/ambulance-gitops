@@ -4,7 +4,7 @@ metadata:
   name: cv2-xkilian-ambulance-ufe-content
 spec:
   microFrontend: cv2-xkilian-ambulance-ufe
-  element: cv2-xkilian-wl-list
+  element: cv2-xkilian-ambulance-wl-app
   displayRules:
     - allOf:
         - context-name: main-content
